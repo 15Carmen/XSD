@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aeropuertos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+             xs:noNamespaceSchemaLocation="aeropuertoss2.xsd">
+    <aeropuerto>
+        <nombre>Berlín Schönefeld (SFX)</nombre>
+    </aeropuerto>
+    <aeropuerto>
+        <nombre>Berlín Tempelhof (THF)</nombre>
+    </aeropuerto>
+    <aeropuerto>
+        <nombre>Madrid Barajas (THF)</nombre>
+    </aeropuerto>
+    <vuelo>
+        <numero>12345</numero>
+        <precio>100.99</precio>
+        <despegue>2022-03-05T22:15:00 </despegue>
+        <diaAterrizaje>2022-03-06</diaAterrizaje>
+        <horaAterrizaje>05:30:00</horaAterrizaje>
+        <numeroPasajeros>50</numeroPasajeros>
+        <metrosRecorridos>12346789</metrosRecorridos>
+        <tipoAvion>1</tipoAvion>
+    </vuelo>
+
+</aeropuertos>

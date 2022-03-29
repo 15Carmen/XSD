@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="escritores3">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="escritor" maxOccurs="6">
+                    <xs:complexType>
+
+                        <xs:annotation>
+                            <xs:appinfo>Info del escritor</xs:appinfo>
+                            <xs:documentation xml:lang="en">
+                                En esta parte pondremos la información personal del escritor, como su nombre
+                                o su fecha de nacimiento
+                            </xs:documentation>
+                        </xs:annotation>
+
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="nacimiento" type="xs:string"/>
+                        </xs:sequence>
+
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="carrera">
+                    <xs:complexType>
+
+                        <xs:choice>
+                            <xs:element name="inicio" type="xs:string"/>
+                            <xs:element name="fin" type="xs:string"/>
+                        </xs:choice>
+
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="obras" maxOccurs="6">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Estas son las obras de los autores
+                        </xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+

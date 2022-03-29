@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="aeropuertos">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="aeropuerto" minOccurs="3" maxOccurs="5">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="vuelo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="numero" type="xs:short"/>
+                            <xs:element name="precio" type="xs:decimal"/>
+                            <xs:element name="despegue" type="xs:dateTime"/>
+                            <xs:element name="diaAterrizaje" type="xs:date"/>
+                            <xs:element name="horaAterrizaje" type="xs:time"/>
+                            <xs:element name="numeroPasajeros" type="xs:positiveInteger"/>
+                            <xs:element name="metrosRecorridos" type="xs:long"/>
+                            <xs:element name="tipoAvion" type="xs:boolean"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

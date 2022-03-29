@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="escritores">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="escritor" maxOccurs="6">
+                    <xs:complexType>
+
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="nacimiento" type="xs:string"/>
+                        </xs:sequence>
+
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="carrera">
+                    <xs:complexType>
+
+                        <xs:choice>
+                            <xs:element name="inicio" type="xs:string"/>
+                            <xs:element name="fin" type="xs:string"/>
+                        </xs:choice>
+
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="obras" maxOccurs="6">
+                    <xs:complexType>
+
+                        <xs:all>
+                            <xs:element name="obra" type="xs:string"/>
+                            <xs:element name="fecha" type="xs:string"/>
+                        </xs:all>
+
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+

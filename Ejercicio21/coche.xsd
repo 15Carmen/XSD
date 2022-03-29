@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Vehiculos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Vehiculo" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tipo" type="TVehiculo"/>
+                            <xs:element name="precio" type="TPrecio"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="TVehiculo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="barco"/>
+            <xs:enumeration value="bici"/>
+            <xs:enumeration value="coche"/>
+            <xs:enumeration value="bus"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TPrecio">
+        <xs:restriction base="xs:decimal">
+            <xs:totalDigits value="5"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

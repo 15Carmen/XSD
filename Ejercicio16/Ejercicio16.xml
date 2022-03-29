@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escritores xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+            xs:noNamespaceSchemaLocation="escritores.xsd">
+    <escritor>
+        <nombre>juan Gómez Jurado</nombre>
+        <nacimiento>16 de diciembre de 1977</nacimiento>
+    </escritor>
+
+    <carrera>
+        <inicio>Año 1989</inicio>
+    </carrera>
+    
+    <obras>
+        <obra>Reina Roja</obra>
+        <fecha>8 de noviembre de 2018</fecha>
+    </obras>
+</escritores>

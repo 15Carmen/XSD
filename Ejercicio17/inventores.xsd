@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="inventores">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="inventor" maxOccurs="6">
+                    <xs:complexType>
+
+                        <xs:sequence>
+                            <xs:element name="invento" type="xs:string"/>
+                        </xs:sequence>
+
+                        <xs:attribute name="nombre" type="xs:string" use="required" default="Antonio"/>
+                        <xs:attribute name="apellido" type="xs:string" use="prohibited"/>
+                        <xs:attribute name="id" type="xs:int" fixed="123"/>
+
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="creador" maxOccurs="6">
+                    <xs:complexType>
+
+                        <xs:attribute name="nombre" fixed="Antonio"/>
+
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="prueba" maxOccurs="6" fixed="">
+
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+

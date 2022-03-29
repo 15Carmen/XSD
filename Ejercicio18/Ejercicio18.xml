@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<inventores2 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+            xs:noNamespaceSchemaLocation="inventores2.xsd">
+
+    <inventor>
+        <invento>"Mando a distancia"</invento>
+        <nombre>Mario</nombre>
+        <apellido>Casas</apellido>
+        <dni>49117682D</dni>
+    </inventor>
+
+    <inventor>
+        <invento>"Bolígrafo"</invento>
+        <nombre>Isa</nombre>
+        <apellido>Katarina</apellido>
+        <id>1234</id>
+    </inventor>
+
+</inventores2>

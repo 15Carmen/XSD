@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="inventores2">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="inventor" maxOccurs="6">
+                    <xs:complexType>
+
+                        <xs:sequence>
+                            <xs:element name="invento" type="xs:string"/>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellido" type="xs:string"/>
+
+                            <xs:choice>
+                                <xs:element name="id" type="xs:string"/>
+                                <xs:element name="dni" type="xs:string"/>
+                            </xs:choice>
+
+                        </xs:sequence>
+
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+

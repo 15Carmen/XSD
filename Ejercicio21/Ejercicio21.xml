@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Vehiculos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+          xs:noNamespaceSchemaLocation="coche.xsd">
+
+    <Vehiculo>
+        <tipo>bus</tipo>
+        <precio>7866.4</precio>
+    </Vehiculo>
+
+    <Vehiculo>
+        <tipo>bici</tipo>
+        <precio>200</precio>
+    </Vehiculo>
+
+    <Vehiculo>
+        <tipo>coche</tipo>
+        <precio>14000</precio>
+    </Vehiculo>
+
+
+</Vehiculos>

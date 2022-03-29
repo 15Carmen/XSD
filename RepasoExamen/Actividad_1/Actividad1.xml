@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE articulos [
+        <!ELEMENT articulos (articulo+)>
+        <!ELEMENT articulo (nombre, precio, codigo, fabricante)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT codigo (#PCDATA)>
+        <!ELEMENT fabricante (#PCDATA)>
+        ]>
+
+<articulos>
+    <articulo>
+        <nombre>pendientes lunares</nombre>
+        <precio>20€</precio>
+        <codigo>123</codigo>
+        <fabricante>Shein</fabricante>
+    </articulo>
+
+    <articulo>
+        <nombre>collar serotonina</nombre>
+        <precio>15€</precio>
+        <codigo>456</codigo>
+        <fabricante>Alma joyería</fabricante>
+    </articulo>
+
+</articulos>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<escritores3 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+             xs:noNamespaceSchemaLocation="escritores3.xsd">
+    <escritor>
+        <nombre>Juan Gómez Jurado</nombre>
+        <nacimiento>16 de diciembre de 1977</nacimiento>
+    </escritor>
+
+    <carrera>
+        <inicio>Año 1989</inicio>
+    </carrera>
+
+    <obras/>
+
+</escritores3>

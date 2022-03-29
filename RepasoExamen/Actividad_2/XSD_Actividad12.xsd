@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="vivero">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="especie">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="precio"/>
+                            <xs:element name="variedad" type="xs:string"/>
+                            <xs:element name="origen" type="xs:string"/>
+                            <xs:element name="color_fruto" type="xs:string"/>
+                            <xs:element name="otros_datos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="maduracion" type="xs:string"/>
+                                        <xs:element name="riego" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+
+                        <xs:attribute name="siembra" type="xs:string"/>
+                    </xs:complexType>
+
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

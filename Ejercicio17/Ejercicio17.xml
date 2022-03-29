@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<inventores xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+            xs:noNamespaceSchemaLocation="inventores.xsd">
+
+    <inventor nombre="Robert" id="123">
+        <invento>"Mando a distancia"</invento>
+    </inventor>
+
+    <inventor nombre="Laszlo">
+        <invento>"Bolígrafo"</invento>
+    </inventor>
+
+    <inventor nombre="Josephine" id="123">
+        <invento>"Lavaplatos"</invento>
+    </inventor>
+
+    <inventor nombre="Antonio">
+        <invento>"Fuego"</invento>
+    </inventor>
+
+    <creador nombre="Antonio"/>
+
+    <prueba/>
+
+        </inventores>
