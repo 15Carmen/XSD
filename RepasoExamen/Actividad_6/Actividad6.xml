@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE informacion [
+        <!ELEMENT informacion (usuario+)>
+        <!ELEMENT usuario (persona, nombre_apellido, telefono*, email+, socio)>
+        <!ELEMENT persona (genero, id)>
+        <!ELEMENT genero (#PCDATA)>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT nombre_apellido (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT socio (#PCDATA)>
+        ]>
+
+<informacion>
+    <usuario>
+        <persona>
+            <genero>Femenino</genero>
+            <id>001</id>
+        </persona>
+        <nombre_apellido>Segundo Pascual</nombre_apellido>
+        <telefono>666777888</telefono>
+        <telefono>959237265</telefono>
+        <email>User1@gmail.com</email>
+        <email>User2@gmail.com</email>
+        <email>User3@gmail.com</email>
+        <socio>Si</socio>
+    </usuario>
+
+    <usuario>
+        <persona>
+            <genero>Masculino</genero>
+            <id>002</id>
+        </persona>
+        <nombre_apellido>Obdulia Toledo</nombre_apellido>
+        <telefono/>
+        <email>Carmen@uma.es</email>
+        <socio>No</socio>
+    </usuario>
+
+</informacion>

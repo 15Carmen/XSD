@@ -1,0 +1,10 @@
+
+a)Sí, porque no hay puesto un máximo de elementos contacto, es decir,el maxOccurs es unbounded.
+
+b)Tiene al menos que escribir un número entero positivo
+
+c)No, solo puede añadir como máximo 2, ya que el maxOccurs es 2
+
+d)Como máximo 3, como mínimo 1
+
+e)Enteros no negativos que pueden almacenarse en 8 bits.

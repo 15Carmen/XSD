@@ -1,0 +1,17 @@
+Diferencias:
+
+· Los XSD se escriben en XML, mientras que los DTD se derivan de la sintáxis SGML
+
+· Los XSD definen tipos de datos para elementos y atributos, mientras que los DTD no admiten tipos de datos.
+
+· Los XSD definen el número y el orden de los elementos hijos, mientras que la dtd no lo hace.
+
+· Utilizando el XSD el usuario no necesita aprender un nuevo lenguaje mientras que para usar DTD sí.
+
+· El esquema xml proporciona una comunicación de datos segura, es decir, el emisor puede describir los datos de forma
+    que el receptor los entienda, pero en el caso del dtd los datos pueden ser malinterpretados por el receptor.
+
+· Los esquemas xml son extensibles mientras que los dtd no lo son.
+
+
+

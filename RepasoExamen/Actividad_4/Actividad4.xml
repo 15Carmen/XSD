@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+        xs:noNamespaceSchemaLocation="XSD_Actividad4.xsd">
+    <contacto nombre="alumno LM">
+        <ciudad>Málaga</ciudad>
+        <telefono n="666777888"/>
+        <email>666777888@prueba.coom</email>
+    </contacto>
+</agenda>
