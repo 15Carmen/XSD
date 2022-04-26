@@ -9,7 +9,15 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="nombre" type="xs:string"/>
-                            <xs:element name="precio"/>
+                            <xs:element name="precio">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="moneda" type="xs:string"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
                             <xs:element name="variedad" type="xs:string"/>
                             <xs:element name="origen" type="xs:string"/>
                             <xs:element name="color_fruto" type="xs:string"/>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE vivero SYSTEM "DTD_Actividad2.dtd">
 <vivero xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-        xs:noNamespaceSchemaLocation="XSD_Actividad12.xsd">
+        xs:noNamespaceSchemaLocation="XSD_Actividad2.xsd">
     <especie siembra="2018">
         <nombre>Litchi</nombre>
         <precio moneda="euro">25</precio>

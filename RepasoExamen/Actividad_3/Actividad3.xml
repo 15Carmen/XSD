@@ -1,0 +1,36 @@
+
+<calificaciones xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+                xs:noNamespaceSchemaLocation="XSD_Actividad3.xsd">
+
+    <alumnos>
+        <datos>
+            <nombre>Carmen</nombre>
+            <apellidos>Martín Núñez</apellidos>
+        </datos>
+
+        <materia>
+            <OACE>
+                <cuestionario>8.5</cuestionario>
+                <tareas>9</tareas>
+            </OACE>
+
+            <EEE>
+                <cuestionario>9.3</cuestionario>
+                <tareas>7</tareas>
+            </EEE>
+        </materia>
+
+        <materia2>
+            <OACE>
+                <cuestionario>7.9</cuestionario>
+                <tareas>6.2</tareas>
+            </OACE>
+
+            <EEE>
+                <cuestionario>8.9</cuestionario>
+                <tareas>10</tareas>
+            </EEE>
+        </materia2>
+    </alumnos>
+
+</calificaciones>

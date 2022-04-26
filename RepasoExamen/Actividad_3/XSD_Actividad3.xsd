@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="calificaciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alumnos">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="datos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="apellidos" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="materia">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="OACE">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cuestionario" type="xs:double"/>
+                                                    <xs:element name="tareas" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <xs:element name="EEE">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cuestionario" type="xs:double"/>
+                                                    <xs:element name="tareas" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="materia2">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="OACE">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cuestionario" type="xs:double"/>
+                                                    <xs:element name="tareas" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                        <xs:element name="EEE">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="cuestionario" type="xs:double"/>
+                                                    <xs:element name="tareas" type="xs:double"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
